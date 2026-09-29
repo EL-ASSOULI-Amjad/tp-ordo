@@ -19,7 +19,7 @@ typedef struct t_chemin {
 	int count;
 	int n; 
 	int liste[nb_max_sommet];
-};t_chemin;
+} t_chemin;
 
 
 void lire_fichier(string  nom, t_graphe &un_graphe);

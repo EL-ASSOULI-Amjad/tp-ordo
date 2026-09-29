@@ -30,7 +30,7 @@ void calculer_dijstra(t_graphe un_graphe, int depart, int sommet_final, t_chemin
 		mon_mini = mon_infini;
 		pos_mini = -1;
 		nn = un_graphe.n;
-		for (int j = 1;i <= nn; j++) {
+		for (int j = 1; j <= nn; j++) {
 			if (t[j] == 0)
 				if (m[j] < mon_mini)
 				{
